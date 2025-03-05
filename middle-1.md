@@ -1,8 +1,56 @@
 Javascript J3 questions:
 
+## Common
+
+1. How does variable behave without "var"?
+
+does know.
+
+2. "use strict"
+
+```javascript
+function processUserData(name) {
+  "use strict";
+  userName = name; 
+  return userName;
+}
+
+const result = processUserData("Alice")
+
+console.log(result)
+```
+
+
+3. What is hoisting in javascript.
+
+
+## Objects
+
+4. Object getters and setter 
+
+```javascript
+let user = {
+  name: "John",
+  surname: "Smith",
+
+  get fullName() {
+    return `${this.name} ${this.surname}`;
+  }
+};
+
+console.log(user.fullName);
+```
+
+
+5. can you mke object immutable? 
+
+6. clone the object? 
+
 1. null vs undefined;
 
 2. Strict vs non-strict comparison
+
+does know.
 
 
 3. Object as a reference type;
@@ -39,6 +87,8 @@ console.log(obj.regularFn()); // ?
 console.log(obj.arrowFn()); // ?
 ```
 
+does know
+
 
 6. Handling Errors in Async/Await
 
@@ -49,6 +99,8 @@ Why are Promises considered a better alternative to callbacks?
 Can you convert a callback-based function into a Promise-based function? How?
 
 What are the three states of a Promise?
+
+ok
 
 8. object methods
 How do you check if an object has a specific property?
@@ -63,12 +115,16 @@ How do you convert an object into an array of key-value pairs? obj.entries()
 __proto__ is an instance property that points to the prototype of the object it was created from.
 prototype is a property of constructor functions that is used to set up the prototype of new instances.
 
+OK
 
 
 10. How do you define a generic interface?
 
 
 11. How do you use multiple generic types in a function?
+
+OK
+
 
 
 12. Functions, Lexical Environement and Closures
@@ -91,6 +147,8 @@ firstCall(); // ?
 secondCall(); // ?
 ```
 
+OK
+
 React Reconciliation:
 
 ---
@@ -98,6 +156,8 @@ React Reconciliation:
 ### **1. Can we use indexes as keys in lists, and what are the potential issues with doing so?**  
 **Explanation:**  
 Using indexes as keys can lead to performance issues and unexpected UI behavior. When an item is inserted or removed, React may re-render components incorrectly because their keys have changed. This can cause issues like losing component state, unnecessary re-renders, and animation glitches.
+
+
 
 **Example of incorrect key usage:**  
 ```jsx
@@ -484,7 +544,7 @@ React Native
 
 What is different between bare and expo managed workflows
 
-Why do we need metro bundler? 
+Why do we need metro bundler?
 
 Can we animate everything with React Native provided Animation API? and what is different between Reanimated?
  
