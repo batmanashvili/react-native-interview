@@ -544,14 +544,91 @@ React Native
 
 What is different between bare and expo managed workflows
 
-Why do we need metro bundler?
 
 Can we animate everything with React Native provided Animation API? and what is different between Reanimated?
  
-what is provvisioning profiles used for? 
 
-what is discribution certificated used for? 
 
+### Environement and expo
+1. How to Test Deep Links in React Native?
+What are deep links, and how do they work in a React Native app?
+
+How can you test deep links on iOS and Android?
+
+What are the differences between using Linking API and React Navigation’s deep linking configuration?
+
+How do you handle deep linking when the app is in the background vs. when it's closed?
+
+How can you simulate a deep link in a development environment?
+
+
+2. Expo Managed vs. Bare Workflow
+What are the key differences between Expo’s managed and bare workflows?
+
+When would you choose the bare workflow over the managed workflow?
+
+What are some of the limitations of Expo’s managed workflow?
+
+How do you add custom native modules in the bare workflow?
+
+If you start with the managed workflow, can you switch to the bare workflow later?
+
+3. What is a Metro bundler and how it works? 
+
+
+### Animations
+1. Animations in React Native (Animated API)
+What types of animations does the React Native Animated API support?
+
+What are the differences between Animated.timing, Animated.spring, and Animated.decay?
+
+How do you interpolate an animated value? Can you provide an example?
+
+What’s the difference between useNativeDriver: true and useNativeDriver: false?
+
+
+2. Understanding Declarative Animation API
+What is a declarative animation, and how does it differ from an imperative animation?
+
+Can you explain how to use Animated with React Native’s declarative approach?
+
+What is the role of Animated.Value in a declarative animation setup?
+
+How does the LayoutAnimation API differ from the Animated API?
+
+3. Combining Animations with Basic Gesture Recognition System (GRS)
+How do you combine animations with gesture handling in React Native?
+
+What is PanResponder, and how does it work with animations?
+
+How does the react-native-gesture-handler library improve gesture handling for animations?
+
+Can you explain how to animate an element while dragging it using gestures?
+
+
+4. Optimizing Animations for iOS and Android
+What are some performance issues you may face with animations on mobile?
+
+How does useNativeDriver improve animation performance?
+
+When would you use Reanimated instead of the default Animated API?
+
+How do you prevent frame drops and ensure smooth animations on lower-end Android devices?
+
+### Routing
+1. React Navigation vs React Native Navigation
+2. What type of Navigations do you know?
+3. In which component do you implement deep linking?
+4. Can you declare additional animations transaition between navigation the screens?
+
+### Publishign and distribution
+1. what is provvisioning profiles used for?  what is a dsitribution certificate?
+2. 
+
+
+
+### Push Notifications
+1. What is APN 
 
 
 
