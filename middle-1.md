@@ -50,9 +50,6 @@ console.log(user.fullName);
 
 2. Strict vs non-strict comparison
 
-does know.
-
-
 3. Object as a reference type;
 What happens when you assign one object to another variable? Does it create a copy?
 What is the difference between shallow copy and deep copy of an object?
